@@ -6,8 +6,6 @@ import (
 	"database/sql"
 	"fmt"
 
-	//"unicode/utf8"
-
 	_ "github.com/lib/pq"
 )
 
@@ -40,8 +38,6 @@ func main() {
 			fmt.Println(err)
 			continue
 		}
-		//r, _ := utf8.EncodeRune([]byte(p.name))
-		//fmt.Println(r)
 		students = append(students, p)
 	}
 	for _, p := range students {
