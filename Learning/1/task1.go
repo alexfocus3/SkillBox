@@ -25,7 +25,7 @@ func main() {
 		if str == "exit" {
 			break
 		} else {
-			fmt.Fprintf(file, "%d %s %s\n", count, time.Now().Format("01-02-2006 15:04:05"), "продам гараж!")
+			fmt.Fprintf(file, "%d %s %s\n", count, time.Now().Format("01-02-2006 15:04:05"), "продам гараж!!")
 		}
 		count++
 	}
